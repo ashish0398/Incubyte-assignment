@@ -17,6 +17,10 @@ class StringCalculator{
 	
 	private static String extractNumbers(String input){
 		String delimiter = ",";
+		if(input.endsWith("n")){
+			System.out.print("\nInvalid Input.");
+			System.exit(0);
+		}
 		stringBuffer = new StringBuffer(input);
 		do{
 			int index = stringBuffer.indexOf("\\n");
@@ -24,13 +28,19 @@ class StringCalculator{
 		}while(stringBuffer.indexOf("\\n")>0);
 		return stringBuffer.toString();
 	}
-	
+
 	private static int sum(String numbers){
 		int sum=0;
 		tokens=new StringTokenizer(numbers,",");
 		
 		while(tokens.hasMoreTokens()){
-			sum += Integer.parseInt(tokens.nextToken());
+			int num = Integer.parseInt(tokens.nextToken());
+			if(num > 1000) {
+				num=0;
+				sum += num;
+			}else{
+				sum += num;
+			}
 		}
 		System.out.print("\nSum: "+sum);
 		return sum;
@@ -40,7 +50,6 @@ class StringCalculator{
 		StringCalculator strCalc = new StringCalculator();
 		System.out.print("\nEnter String: ");
 		String input=scanner.nextLine();
-		System.out.print("\nInput: "+input);		
 		strCalc.Add(input);
 	}
 }
