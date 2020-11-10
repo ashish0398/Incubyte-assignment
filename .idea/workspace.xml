@@ -25,6 +25,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -43,6 +50,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RunManager">
     <configuration name="StringCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -85,21 +93,29 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="502" y="75" key="#com.intellij.openapi.keymap.impl.ui.EditKeymapsDialog/0.0.1366.768@0.0.1366.768" timestamp="1604947878121" />
-    <state width="1322" height="192" key="GridCell.Tab.0.bottom" timestamp="1604951829383">
+    <state x="441" y="264" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1604981865349">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604951829383" />
-    <state width="1322" height="192" key="GridCell.Tab.0.center" timestamp="1604951829382">
+    <state x="441" y="264" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1366.768@0.0.1366.768" timestamp="1604981865349" />
+    <state width="1322" height="192" key="GridCell.Tab.0.bottom" timestamp="1604983262464">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604951829382" />
-    <state width="1322" height="192" key="GridCell.Tab.0.left" timestamp="1604951829382">
+    <state width="1322" height="192" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1604983262464" />
+    <state width="1322" height="192" key="GridCell.Tab.0.center" timestamp="1604983262464">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604951829382" />
-    <state width="1322" height="192" key="GridCell.Tab.0.right" timestamp="1604951829383">
+    <state width="1322" height="192" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1604983262464" />
+    <state width="1322" height="192" key="GridCell.Tab.0.left" timestamp="1604983262464">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604951829383" />
+    <state width="1322" height="192" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1604983262464" />
+    <state width="1322" height="192" key="GridCell.Tab.0.right" timestamp="1604983262464">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1322" height="192" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1604983262464" />
+    <state x="339" y="172" key="run.anything.popup" timestamp="1604984068872">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="339" y="172" key="run.anything.popup/0.0.1366.768@0.0.1366.768" timestamp="1604984068872" />
   </component>
 </project>
